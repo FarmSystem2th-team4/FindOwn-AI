@@ -134,7 +134,7 @@ class Image_Search_Model:
         pbar.close()
 
         # Save the features to a pkl file
-        with open('features_logo.pkl', 'wb') as f:
+        with open('features_logo_Kipris.pkl', 'wb') as f:
             pickle.dump(features, f)
 
 
